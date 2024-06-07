@@ -25,6 +25,7 @@ function Todo() {
   }
   return (
     <>
+    <div className="di">
       <form onSubmit={handlesubmit}>
         <input type="text" onChange={(e) => setInput(e.target.value)} value={input} />
         <button type='submit'>Add</button>
@@ -36,6 +37,7 @@ function Todo() {
         {/* ankit */}
       </ul>
       </form>
+      </div>
       
     </>
   )
