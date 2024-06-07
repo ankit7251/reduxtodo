@@ -32,6 +32,8 @@ function Todo() {
         {todos.map((item) => (
           <li >{item.text} <p onClick={() => handleremoveTodo(item.id)} style={{ cursor: "pointer" , float:"right"}} >💩</p></li>
         ))}
+
+        {/* ankit */}
       </ul>
       </form>
       
